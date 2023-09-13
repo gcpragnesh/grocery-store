@@ -1,0 +1,33 @@
+/* OrderList.css */
+
+/* Order list container */
+.order-list {
+    padding: 20px;
+  }
+  
+  /* Order table */
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  /* Table header row */
+  .order-table th {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  /* Table data rows */
+  .order-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  /* Alternating row background color */
+  .order-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
